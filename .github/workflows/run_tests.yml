@@ -1,5 +1,6 @@
 name: Run authotests
 
+
 on:
   workflow_dispatch:
     inputs:
@@ -10,7 +11,6 @@ on:
         default: all
         options:
           - all
-
 
  jobs:
    run-tests:
