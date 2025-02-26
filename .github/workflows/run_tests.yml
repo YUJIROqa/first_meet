@@ -11,7 +11,7 @@ on:
         default: all
         options:
           - all
- jobs:
+jobs:
    run-tests:
      runs-on: ubuntu-latest
      name: Tests
